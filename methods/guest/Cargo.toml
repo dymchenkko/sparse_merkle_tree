@@ -1,0 +1,15 @@
+[package]
+name = "methods-guest"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[build-dependencies]
+risc0-build = "0.9"
+
+[dependencies]
+risc0-zkvm-guest = "0.9"
+blake2 = { version = "0.10.4", default-features = false}
+blake2b-ref = { version = "0.3.0", default-features = false}
+sparse-merkle-tree =  { version = "0.5.3", default-features = false}
